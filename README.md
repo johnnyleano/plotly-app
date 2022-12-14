@@ -46,3 +46,5 @@ And run the container
 docker run -p 8050:8050 docker-dash
 ```
 You can find to the app on your local machine http://localhost:8050/ (or localhost:8050). This way the image is created using the Dockerfile, instead of the Dockerfile.prod.
+
+
