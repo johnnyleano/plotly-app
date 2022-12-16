@@ -8,7 +8,7 @@ curl --netrc -X PATCH https://api.heroku.com/apps/$HEROKU_APP_NAME/formation \
   -d '{
   "updates": [
     {
-      "type": "web",
+      "type": "web: gunicorn",
       "docker_image": "'"$IMAGE_ID"'"
     }
   ]
